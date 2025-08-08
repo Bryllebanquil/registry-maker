@@ -1,0 +1,370 @@
+COMPREHENSIVE REGISTRY INVENTORY - PYTHON FILES
+============================================
+
+COMPLETE REGISTRY LOCATIONS AND VALUE NAMES
+==========================================
+
+FILE: test.py
+-------------
+Line 23: HKEY_CURRENT_USER\Software\TestApp
+         Value: "TestValue" = "Hello Registry"
+
+Line 438: HKEY_CURRENT_USER\Software\Classes\ms-settings\shell\open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 479: HKEY_CURRENT_USER\Software\Classes\ms-settings\shell\open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 507: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+          Value: "AgentMarker" = "AgentWasHere"
+
+Line 519: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+          Value: "DisableAntiSpyware" = 1 (DWORD)
+
+FILE: reference.py
+------------------
+Line 13: HKEY_CURRENT_USER\Software\MyApp
+         Value: "MyValue" = "Hello World"
+
+Line 200: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 241: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 283: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ICM\Calibration
+          Value: "DisplayCalibrator" = [executable path]
+
+Line 655: HKEY_CURRENT_USER\Software\Classes\exefile\shell\open\command
+          Value: (Default) = [executable path]
+
+Line 616: HKEY_CURRENT_USER\Environment
+          Value: "windir" = [directory path] (REG_EXPAND_SZ)
+
+Line 710: HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command
+          Value: (Default) = [executable path]
+
+Line 766: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\control.exe
+          Value: (Default) = [executable path]
+
+Line 808: HKEY_CURRENT_USER\Software\Classes\AppX82a6gwre4fdg3bt635tn5ctqjf8msdd2\Shell\open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 931: HKEY_CURRENT_USER\Software\Classes\Folder\shell\open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 989: HKEY_CURRENT_USER\Software\Classes\CLSID\{11111111-2222-3333-4444-555555555555}\InProcServer32
+          Value: (Default) = [executable path]
+          Value: "ThreadingModel" = "Apartment"
+
+Line 1611: HKEY_CURRENT_USER\Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1670: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+           Value: "EnableLUA" = 0 (DWORD)
+           Value: "ConsentPromptBehaviorAdmin" = 0 (DWORD)
+           Value: "PromptOnSecureDesktop" = 0 (DWORD)
+
+Line 1722: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+           Value: "WindowsSecurityUpdate" = [executable path]
+
+FILE: thread_main.py
+--------------------
+Line 88: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+         Value: "TestApp" = [executable path with arguments]
+
+Line 763: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 804: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 846: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ICM\Calibration
+          Value: "DisplayCalibrator" = [executable path]
+
+Line 1221: HKEY_CURRENT_USER\Software\Classes\exefile\shell\open\command
+           Value: (Default) = [executable path]
+
+Line 1182: HKEY_CURRENT_USER\Environment
+           Value: "windir" = [directory path] (REG_EXPAND_SZ)
+
+Line 1276: HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command
+           Value: (Default) = [executable path]
+
+Line 1332: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\control.exe
+           Value: (Default) = [executable path]
+
+Line 1374: HKEY_CURRENT_USER\Software\Classes\AppX82a6gwre4fdg3bt635tn5ctqjf8msdd2\Shell\open\command
+           Value: (Default) = [executable path]
+           Value: "DelegateExecute" = ""
+
+Line 1497: HKEY_CURRENT_USER\Software\Classes\Folder\shell\open\command
+           Value: (Default) = [executable path]
+           Value: "DelegateExecute" = ""
+
+Line 1555: HKEY_CURRENT_USER\Software\Classes\CLSID\{11111111-2222-3333-4444-555555555555}\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1885: HKEY_CURRENT_USER\Software\Classes\CLSID\[Generated CLSID]\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 2245: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+           Value: "WindowsSecurityUpdate" = [stealth location]
+
+Line 2488: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
+           Value: "WindowsSecurityUpdate" = [stealth location]
+
+Line 3087: HKEY_CURRENT_USER\Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 3200: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+           Value: "EnableLUA" = 0 (DWORD)
+           Value: "ConsentPromptBehaviorAdmin" = 0 (DWORD)
+           Value: "PromptOnSecureDesktop" = 0 (DWORD)
+
+Line 3257: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+           Value: "WindowsSecurityUpdate" = [executable path]
+
+Line 7586: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+           Value: "svchost32" = [stealth executable path]
+
+FILE: makoy.py
+--------------
+Line 190: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 231: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 273: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ICM\Calibration
+          Value: "DisplayCalibrator" = [executable path]
+
+Line 645: HKEY_CURRENT_USER\Software\Classes\exefile\shell\open\command
+          Value: (Default) = [executable path]
+
+Line 700: HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command
+          Value: (Default) = [executable path]
+
+Line 756: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\control.exe
+          Value: (Default) = [executable path]
+
+Line 798: HKEY_CURRENT_USER\Software\Classes\AppX82a6gwre4fdg3bt635tn5ctqjf8msdd2\Shell\open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 921: HKEY_CURRENT_USER\Software\Classes\Folder\shell\open\command
+          Value: (Default) = [executable path]
+
+Line 979: HKEY_CURRENT_USER\Software\Classes\CLSID\{11111111-2222-3333-4444-555555555555}\InProcServer32
+          Value: (Default) = [executable path]
+          Value: "ThreadingModel" = "Apartment"
+
+Line 1601: HKEY_CURRENT_USER\Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1660: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+           Value: "EnableLUA" = 0 (DWORD)
+           Value: "ConsentPromptBehaviorAdmin" = 0 (DWORD)
+           Value: "PromptOnSecureDesktop" = 0 (DWORD)
+
+Line 1811: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+           Value: [Dynamic value name] = [run command]
+
+FILE: final_agent.py
+--------------------
+Line 581: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 622: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 664: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ICM\Calibration
+          Value: "DisplayCalibrator" = [executable path]
+
+Line 1036: HKEY_CURRENT_USER\Software\Classes\exefile\shell\open\command
+           Value: (Default) = [executable path]
+
+Line 1091: HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command
+           Value: (Default) = [executable path]
+
+Line 1147: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\control.exe
+           Value: (Default) = [executable path]
+
+Line 1189: HKEY_CURRENT_USER\Software\Classes\AppX82a6gwre4fdg3bt635tn5ctqjf8msdd2\Shell\open\command
+           Value: (Default) = [executable path]
+           Value: "DelegateExecute" = ""
+
+Line 1312: HKEY_CURRENT_USER\Software\Classes\Folder\shell\open\command
+           Value: (Default) = [executable path]
+           Value: "DelegateExecute" = ""
+
+Line 1370: HKEY_CURRENT_USER\Software\Classes\CLSID\{11111111-2222-3333-4444-555555555555}\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1448: HKEY_CURRENT_USER\Software\Classes\CLSID\[Generated CLSID]\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1605: HKEY_CURRENT_USER\Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1700: HKEY_CURRENT_USER\Software\Classes\CLSID\[Generated CLSID]\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1901: HKEY_CURRENT_USER\Software\Classes\CLSID\[Generated CLSID]\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 2048: HKEY_CURRENT_USER\Software\Classes\CLSID\[Generated CLSID]\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 2164: HKEY_CURRENT_USER\Software\Classes\CLSID\[Generated CLSID]\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 2210: HKEY_CURRENT_USER\Software\Classes\CLSID\[Generated CLSID]\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+FILE: agent.py
+--------------
+Line 200: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 241: HKEY_CURRENT_USER\Software\Classes\ms-settings\Shell\Open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 283: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ICM\Calibration
+          Value: "DisplayCalibrator" = [executable path]
+
+Line 655: HKEY_CURRENT_USER\Software\Classes\exefile\shell\open\command
+          Value: (Default) = [executable path]
+
+Line 616: HKEY_CURRENT_USER\Environment
+          Value: "windir" = [directory path] (REG_EXPAND_SZ)
+
+Line 710: HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command
+          Value: (Default) = [executable path]
+
+Line 766: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\control.exe
+          Value: (Default) = [executable path]
+
+Line 808: HKEY_CURRENT_USER\Software\Classes\AppX82a6gwre4fdg3bt635tn5ctqjf8msdd2\Shell\open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 931: HKEY_CURRENT_USER\Software\Classes\Folder\shell\open\command
+          Value: (Default) = [executable path]
+          Value: "DelegateExecute" = ""
+
+Line 989: HKEY_CURRENT_USER\Software\Classes\CLSID\{11111111-2222-3333-4444-555555555555}\InProcServer32
+          Value: (Default) = [executable path]
+          Value: "ThreadingModel" = "Apartment"
+
+Line 1611: HKEY_CURRENT_USER\Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}\InProcServer32
+           Value: (Default) = [executable path]
+           Value: "ThreadingModel" = "Apartment"
+
+Line 1712: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+           Value: "EnableLUA" = 0 (DWORD)
+           Value: "ConsentPromptBehaviorAdmin" = 0 (DWORD)
+           Value: "PromptOnSecureDesktop" = 0 (DWORD)
+
+Line 1864: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+           Value: [Dynamic value name] = [run command]
+
+============================================
+REGISTRY HIVES ACCESSED
+============================================
+- HKEY_CURRENT_USER (HKCU)
+- HKEY_LOCAL_MACHINE (HKLM)
+- HKEY_CLASSES_ROOT (via Software\Classes path)
+
+============================================
+REGISTRY VALUE DATA TYPES USED
+============================================
+- REG_SZ (String values)
+- REG_DWORD (32-bit integer values)
+- REG_EXPAND_SZ (Expandable string values with environment variables)
+
+============================================
+REGISTRY OPERATION FUNCTIONS IDENTIFIED
+============================================
+- winreg.CreateKey() - Creates new registry keys
+- winreg.OpenKey() - Opens existing registry keys
+- winreg.SetValueEx() - Sets registry values
+- winreg.QueryValueEx() - Reads registry values
+- winreg.CloseKey() - Closes registry key handles
+
+============================================
+SECURITY-SENSITIVE REGISTRY LOCATIONS
+============================================
+
+UAC BYPASS TECHNIQUES:
+- HKEY_CURRENT_USER\Software\Classes\ms-settings\shell\open\command
+- HKEY_CURRENT_USER\Software\Classes\exefile\shell\open\command
+- HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command
+- HKEY_CURRENT_USER\Software\Classes\Folder\shell\open\command
+- HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\control.exe
+- HKEY_CURRENT_USER\Software\Classes\AppX82a6gwre4fdg3bt635tn5ctqjf8msdd2\Shell\open\command
+
+PERSISTENCE MECHANISMS:
+- HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+- HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
+
+COM HIJACKING:
+- HKEY_CURRENT_USER\Software\Classes\CLSID\{GUID}\InProcServer32
+
+SYSTEM POLICIES MANIPULATION:
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+- HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+
+ENVIRONMENT MANIPULATION:
+- HKEY_CURRENT_USER\Environment
+
+SYSTEM CONFIGURATION:
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ICM\Calibration
+
+============================================
+TOTAL STATISTICS
+============================================
+- Total Python files analyzed: 6
+- Total registry operations found: 150+
+- Unique registry paths identified: 25+
+- Registry value names found: 20+
+- Security-sensitive operations: 100+
+
+============================================
+WARNING
+============================================
+This inventory contains registry operations that may be used for:
+- Privilege escalation (UAC bypass)
+- System persistence mechanisms
+- Security software bypass
+- System configuration manipulation
+- Malicious COM object registration
+
+These operations should be carefully reviewed for security implications.
